@@ -5,10 +5,11 @@ export type Network = EthereumNetwork | PolygonNetwork | GnosisNetwork;
 
 export enum EthereumNetwork {
   kovan = 'kovan',
-  goerli = 'goerli',
-  rinkeby = 'rinkeby',
   mainnet = 'mainnet',
   hardhat = 'hardhat',
+  
+  goerli = 'goerli',
+  rinkeby = 'rinkeby',
   tenderlyMain = 'tenderlyMain',
   harhatevm = 'harhatevm',
 }
